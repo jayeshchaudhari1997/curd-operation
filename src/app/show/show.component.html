@@ -1,0 +1,25 @@
+<form >
+    <table>
+        <tr>
+            <td>Enter the First Name</td>
+            <td><input type="text" [(ngModel)]="Fname" [ngModelOptions]="{standalone: true}" [value]="Fname" id=""></td>
+        </tr>
+        <tr>
+            <td>Enter the last Name</td>
+            <td><input type="text" [(ngModel)]="Lname" [ngModelOptions]="{standalone: true}" [value]="Lname" id=""></td>
+        </tr>
+        <tr>
+            <td>Enter the Mobile</td>
+            <td><input type="text" [(ngModel)]="mob" [ngModelOptions]="{standalone: true}" [value]="mob" name="mob" id=""></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><button (click)="submitData()">Submit</button>
+                
+            
+            </td>
+
+        </tr>
+
+    </table>
+</form>
